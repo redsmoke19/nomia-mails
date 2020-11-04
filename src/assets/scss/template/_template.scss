@@ -1,0 +1,167 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #e7ecf4 !important;
+}
+
+.container.header {
+  background: #ffffff;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #ffffff;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f8f9fc;
+}
+
+.wrapper.secondary p {
+  color: $dark-gray;
+}
+
+.logo-image {
+  padding-left: 60px;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    padding-left: 32px;
+  }
+}
+
+.decor-image {
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    width: 82px !important;
+    height: 42px !important;
+  }
+}
+
+table .menu.float-right td {
+  float: right;
+}
+
+table.order__info .first.last {
+  padding-bottom: 24px;
+}
+
+th.order__wrapper--top table th {
+  padding-bottom: 24px !important;
+  border-bottom: 1px solid #e7ecf4;
+}
+
+.order__info--padding {
+  padding-right: 50px;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    padding-right: 0 !important;
+    //padding-bottom: 16px;
+    margin-bottom: 16px !important;
+  }
+}
+
+.order__description {
+  padding-bottom: 0 !important;
+}
+table.row tr th.order__description:nth-child(2) {
+  padding: 0 37px 0 0 !important;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+table.row tr th.order__description.first {
+  padding-right: 37px !important;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    padding-right: 27px !important;
+    margin-bottom: 24px !important;
+  }
+}
+.order__description.last {
+  padding-left: 0;
+}
+
+.order__description--pay {
+  display: block;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    display: inline-block;
+  }
+}
+
+table.row tr th.details__wrapper {
+  padding-left: 92px;
+  padding-right: 141px;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    padding-left: 64px !important;
+    padding-right: 85px !important;
+  }
+}
+
+table.row tr th.ads__image--wrapper {
+  padding-bottom: 32px !important;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 24px !important;
+  }
+}
+
+table.button.ads__button {
+  margin-bottom: 32px !important;
+}
+
+th table.menu.ads__social {
+  width: 60%;
+}
+
+table.button.large.report__button table a {
+  padding: 10px 32px 10px 32px;
+}
+
+table.button.large.billed table a {
+  padding: 10px 48px 10px 48px;
+}
+
+table.row tr th.users__name {
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    margin-bottom: 4px;
+  }
+}
